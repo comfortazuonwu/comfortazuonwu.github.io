@@ -1,0 +1,95 @@
+body{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+     background-color: blueviolet;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1em;
+    padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+    grid-area: main;
+    width: 90%;
+    text-align: center;
+}
+
+
+.fitts{
+    background-color: coral;
+    grid-column:1;
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+ 
+}
+.visual{
+    background-color: coral;
+    grid-column:2;
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+
+}
+.hicks{
+    background-color: coral;
+    grid-column:3;
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+h3{
+    background-color: coral;
+    
+    
+    padding:1em;
+    margin-top: -5px;
+
+}
+p{
+    background-color: coral; 
+    border-radius: 0px 0px 15px 15px;
+    margin-top:-5px;
+    padding:2em;
+    font-family: 'Cantata One', serif;
+
+}
+h4{
+    background-color: white;
+    padding:1em;
+}
+ a{
+color:blue;
+
+}
+header{
+    margin: 1.25rem auto;
+    max-width: 50rem;
+    text-align:center;
+    background-color: blanchedalmond;
+
+}
+img{
+    width: 360px;
+    height:392px;
+}
+h1,h2,h3,h4{
+    font-family: 'Noto Sans JP', sans-serif
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    color: black;
+    margin: 1.25rem auto;
+    max-width: 50rem;
+    
+}
+.footer{
+    background-color: blanchedalmond; 
+    
+}
