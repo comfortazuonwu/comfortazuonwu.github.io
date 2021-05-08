@@ -1,8 +1,8 @@
 body{
+  
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-   
-     background-color: blueviolet;
+    background-color: rgb(2, 2, 63);
 }
 main{
     display: grid;
@@ -12,11 +12,12 @@ main{
     grid-area: main;
     width: 90%;
     text-align: center;
+    
 }
 
 
 .fitts{
-    background-color: coral;
+    background-color: rgb(238, 175, 175);
     grid-column:1;
     justify-self: center;
     border-left: 2px solid black;
@@ -25,7 +26,7 @@ main{
  
 }
 .visual{
-    background-color: coral;
+    background-color: rgb(238, 175, 175);;
     grid-column:2;
     justify-self: center;
     border-left: 2px solid black;
@@ -34,7 +35,7 @@ main{
 
 }
 .hicks{
-    background-color: coral;
+    background-color: rgb(238, 175, 175);
     grid-column:3;
     justify-self: center;
     border-left: 2px solid black;
@@ -42,7 +43,7 @@ main{
 }
 
 h3{
-    background-color: coral;
+    background-color: rgb(238, 175, 175);;
     
     
     padding:1em;
@@ -50,7 +51,7 @@ h3{
 
 }
 p{
-    background-color: coral; 
+    background-color: rgb(238, 175, 175);
     border-radius: 0px 0px 15px 15px;
     margin-top:-5px;
     padding:2em;
@@ -70,6 +71,8 @@ header{
     max-width: 50rem;
     text-align:center;
     background-color: blanchedalmond;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 img{
@@ -87,9 +90,15 @@ footer {
     color: black;
     margin: 1.25rem auto;
     max-width: 50rem;
+    border-radius: 10px;
     
 }
 .footer{
     background-color: blanchedalmond; 
     
+}
+section {
+    border-radius: 10px;
+    
+    overflow: hidden;
 }
