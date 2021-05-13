@@ -1,6 +1,7 @@
+@media only screen and (min-width:950px){
 body{
   
-    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: rgb(2, 2, 63);
 }
@@ -18,7 +19,7 @@ main{
 
 .fitts{
     background-color: rgb(238, 175, 175);
-    grid-column:1;
+    
     justify-self: center;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -27,7 +28,7 @@ main{
 }
 .visual{
     background-color: rgb(238, 175, 175);;
-    grid-column:2;
+    
     justify-self: center;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -36,7 +37,7 @@ main{
 }
 .hicks{
     background-color: rgb(238, 175, 175);
-    grid-column:3;
+    
     justify-self: center;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -101,4 +102,5 @@ section {
     border-radius: 10px;
     
     overflow: hidden;
+}
 }

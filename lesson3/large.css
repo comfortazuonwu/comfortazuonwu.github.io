@@ -1,83 +1,23 @@
-header img{
-    max-width:50%;
+@media only screen and (min-width: 649px) {
+
+
+    nav ul {
+        
+        display: grid;
+        list-style: none; /* removes the bullets! */
+        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));  
+        margin:0;
+        background-color: rgb(11, 54, 54);
+        font-family: 'Josefin Sans', sans-serif;    
+        padding:1em;
+      } 
+      
+      li a {
+        display: block;
+
 }
     
-    
-
-nav ul {
-    
-    display: grid;
-    list-style: none; /* removes the bullets! */
-    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));  
-    margin:0;
-    background-color: rgb(11, 54, 54);
-    font-family: 'Josefin Sans', sans-serif;    
-    padding:1em;
 
 
-    
-}
-nav a{
-    color: #57E405;
-    font-size:x-large;
-    text-decoration: none;
-}
-nav a:hover{
-    color:white;
-  }
 
-
- 
-body{
-    background-color:#F2F3F2;
-    font-family: 'Noto Serif', serif;
-}
-h1,h2,h3,h4{
-    background-color: #0B3636;
-    color: #57E405;
-    padding:1em;
-    font-family: 'Josefin Sans', sans-serif;
-}
-footer{
-    background-color: #0B3636;
-    text-align: center;
-    margin-top:30px;
-
-}
-.personas{
-    display:grid;
-    grid-gap:3em;
-    grid-template-columns: 1fr 1fr;
-
-}
-#melanie{
-    grid-column:1;
-}
-#precious{
-    grid-column:2;
-}
-h1{
-    text-align: center;
-}
-#headerimg{
-    max-height: 30%;
-    max-width:30%;
-    margin:0 auto;
-}
-  
-
-#green{
-    color:#0B3636;
-}
-#lightgreen{
-    color:#57E405;    
-}
-
-h5{
-    font-size: x-large;
-}
-main{
-  max-width:960px;
-  margin:0 auto;
-  padding:1em;
-}
+}  

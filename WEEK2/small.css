@@ -1,7 +1,7 @@
-@media only screen and (max-width: 649px) {
+
     main {
         grid-template-columns: 1fr;
-        grid-template-rows:1fr 1fr 1fr;
+        /*grid-template-rows:1fr 1fr 1fr;*/
         grid-gap: 1em;
     }
    
@@ -9,19 +9,94 @@
         max-width: 400px;
     }
     
-}
-.fitts{
-    grid-row:1;
-    grid-column:1;
-}
-.visual{
-    grid-row:2;
-    grid-column:1;
-}
-.hicks{
-    grid-row:3;
-    grid-column:1;
-}
+
+
 header,footer{
     justify-self: center;
+}
+.fitts{
+    background-color: rgb(238, 175, 175);
+    
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+ 
+}
+.visual{
+    background-color: rgb(238, 175, 175);;
+    
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+
+}
+.hicks{
+    background-color: rgb(238, 175, 175);
+    
+    justify-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+h3{
+    background-color: rgb(238, 175, 175);;
+    
+    
+    padding:1em;
+    margin-top: -5px;
+
+}
+p{
+    background-color: rgb(238, 175, 175);
+    border-radius: 0px 0px 15px 15px;
+    margin-top:-5px;
+    padding:2em;
+    font-family: 'Cantata One', serif;
+
+}
+h4{
+    background-color: white;
+    padding:1em;
+}
+ a{
+color:blue;
+
+}
+header{
+    margin: 1.25rem auto;
+    max-width: 50rem;
+    text-align:center;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+img{
+    width: 360px;
+    height:392px;
+}
+h1,h2,h3,h4{
+    font-family: 'Noto Sans JP', sans-serif
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 1rem;
+    color: black;
+    margin: 1.25rem auto;
+    max-width: 50rem;
+    border-radius: 10px;
+    
+}
+.footer{
+    background-color: blanchedalmond; 
+    
+}
+section {
+    border-radius: 10px;
+    
+    overflow: hidden;
 }
