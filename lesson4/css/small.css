@@ -58,11 +58,10 @@ nav {
 	list-style: none;
 	padding: 0;
 }
-.navigation li:first-child {
-	display: block;
-}
+
+
 .navigation li {
-	display: none;
+	display: block;
 }
 .navigation a {
 	display: block;
