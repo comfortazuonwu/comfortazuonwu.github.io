@@ -2,6 +2,7 @@ body {
 	background-color: #F2F3F2;
 	padding: 0;
 	margin: 0;
+	font-family: 'Noto Serif', serif;
 }
 
 header {
@@ -27,6 +28,9 @@ header img {
 	font-size: 1.6rem;
 	margin: 0 0 0 17px;
 }
+h1,h2,h3,h4,h5{
+	font-family: 'Josefin Sans', sans-serif;
+}
 
 .motto {
 	font-style: italic;
@@ -47,7 +51,17 @@ header img {
     padding:1.5em;
     background-color: rgb(209, 193, 193);
 }
-
+footer{
+	background-color: #0B3636;
+	color:#57E405;
+	padding:0.4em;
+	text-align:center;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: large;
+}
+.footer{
+	color:#57E405;
+}
 nav {
 	margin: 0 auto;
 	
@@ -70,6 +84,8 @@ nav {
 	text-decoration: none;
 	color: #57E405 ;
 	font-weight: 700;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: large;
 }
 .navigation a:hover {
 	color: white;
@@ -81,4 +97,11 @@ nav {
 */
 .responsive li {
 	display: block;
+}
+button{
+	background-color: #0B3636;
+	color:#57E405;
+	font-size: larger;
+	margin-left: 10em;
+	font-family:'Josefin Sans', sans-serif;
 }
