@@ -1,13 +1,13 @@
 @media only screen and (min-width: 32.5em) {
-.navigation {
+#navigation {
 	display: flex;
 	}
 	
-.navigation li {
+#navigation li {
 	display: block; /* change state in small view */
 	flex: 1 1 auto;
 }
-.navigation a {
+#navigation a {
 	text-align: center;
 }
 nav button{

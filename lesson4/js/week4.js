@@ -1,8 +1,8 @@
 
 function toggleMenu() {
-    let elementToggle=element.id + "-toggle";
+    
     console.log(document.querySelectorAll(".navigation").classList);
-    document.getElementsByClassName(elementToggle)[0].classList.toggle("hide");
+    document.getElementById("navigation").classList.toggle("hide");
 }
 let d = new Date();
 
