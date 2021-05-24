@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 649px)    {
 #navigation {
 	display: flex;
 	}
@@ -14,11 +14,7 @@ nav button{
 	display:none;
 }
 
-	
-/* .navigation li:first-child {
-	display: none;
-		
-	} */
+
 
 
 header img {
@@ -35,6 +31,12 @@ header img {
     margin-left: 17px;
 }
 
+.flex{
+	display: flex;
+	max-width:50%;
+	margin:50px auto;
+	
+}
 
 }
 

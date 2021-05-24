@@ -44,13 +44,7 @@ h1,h2,h3,h4,h5{
     text-align: center;
     
 }
-.content{
-    display:block;
-    margin:10px auto;
-    border:10px auto;
-    padding:1.5em;
-    background-color: rgb(209, 193, 193);
-}
+
 footer{
 	background-color: #0B3636;
 	color:#57E405;
@@ -107,4 +101,115 @@ button{
 }
 nav ul.hide{
 	display:none;
+}
+main{
+	margin-left:5rem;
+	margin-right:5rem;
+}
+
+
+.weathersummary{
+    display:block;
+  
+    /*border:10px auto;*/
+	width:200px;
+	height:200px;
+	padding: 0.5em;
+    color:#57E405;
+    
+    background-color: #0B3636;
+	
+	opacity:0.7;
+	position:absolute;
+	
+	margin-left: 10rem;
+	margin-top: 5rem;
+	
+	
+	
+	
+	
+	
+	
+}
+.details{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:1px;
+
+	
+
+}
+.label{
+	grid-column:1/2;
+	margin-top: -10px;
+	color: #57E405 ;
+}
+.value{
+	grid-column:2/2;
+	margin-left:-10px;
+	margin-top: -10px;
+	color:white;
+}
+#headerimage {
+	width:80%;
+	height:400px;
+	margin-left:110px;
+}	
+
+#forecast{
+	text-align: center;
+}	
+.flex{
+	
+	display: flex;
+	max-width:50%;
+	margin:50px auto;	
+	
+}
+	
+.flex-col {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	border-right: 1px soild black;
+	flex:1 1 auto;
+}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+	background-color: #0B3636;
+	color:#57E405;
+}
+.sun{
+	width:30px;
+	height:30px;
+}
+.article{
+	padding: 5em;
+	border-radius:5px;
+	background-color: grey;
+	margin-left:5rem;
+	margin-right:5rem;
+	
+}
+#p-image{
+	width:200px;
+	height:200px;
+	float: right;
+}
+aside{
+	display: none;
+	background-color:  #0B3636;
+	color:#57E405;
+	font-size: larger;
+	padding:1em;
 }

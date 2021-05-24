@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./css/small.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">                                                                                                                                                                  `   
 
 
@@ -35,11 +35,77 @@
 
     </nav>
     <main>
+
+        <aside id="banner">
+         Pancakes at Preston Park on Saturday by 9:00pm!!
+        </aside>
+        
         <h2 class="preston">PRESTON IDAHO</h2>
-        <div class="content">Weather Summary</div>
-        <div class="content">Forecast</div>
-        <div class="content">Article</div>
-        <div class="content">Contact information</div>
+        <section class="weathersummary">
+            <h3> Weather Summary</h3>
+            <div class="details">
+                <p class="label">Currently:</p>
+                <p class="value">Sunny</p>
+                <p class="label">High:</p>
+                <p class="value"> </p>
+                <p class="label">Wind Chill</p>
+                <p class="value"> </p>
+                <p class="label">Humidity</p>
+                <p class="value"> </p>
+                <p class="label">Wind Speed</p>
+                <p class="value"></p>
+            </div>
+    
+            </section>
+        <img id="headerimage" src="images/pexels-jeswin-thomas-2910597.jpg" alt="placeholder">
+        <section class="forecast">
+
+        <h2 id="forecast"> 5 day Forecast</h2>
+        <div class="flex">
+            <div class="flex-col">
+                <span class="col-head">Fri</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png"" alt="kitten!">
+                <span class="data">57</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Sat</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="kitten!">
+                <span class="data">61</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Sun</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png"" alt="kitten!">
+                <span class="data">62</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Mon</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png"" alt="kitten!">
+                <span class="data">75</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Tue</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png"" alt="kitten!">
+                <span class="data">80</span>
+            </div>
+        </section>
+
+        <section class=article>
+            <h3>Founder's Day Article</h3>
+            <h4>By Comfort Azuonwu</h4>
+            <p>
+                <img id="p-image" src="images/pexels-mentatdgt-1568342.jpg" alt="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam quisquam a facilis harum, porro voluptatibus distinctio veniam enim 
+                temporibus dolore eius numquam et eligendi rem ipsa maxime nihil est! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, alias? Asperiores, facere nesciunt maiores iste veritatis, earum omnis corporis nostrum, 
+                voluptas repellat error maxime consequatur autem! Distinctio porro incidunt obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta veniam magnam cum impedit quibusdam quaerat pariatur maxime tempore repellendus dolor natus ex,
+                 quo, nostrum atque illo recusandae voluptate nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam inventore labore. Ad illum deserunt voluptate temporibus. Maxime a soluta suscipit magnam fugiat quia, tenetur, 
+                 consequuntur modi doloribus, minima obcaecati.</p>
+
+        </section>
+           
+           
+           
+        
+       
 
         
 
@@ -50,6 +116,7 @@
 </footer>
 
 <script src="./js/week4.js"> </script>
+<script src="./js/banner.js"></script>
 
     
 </body>
