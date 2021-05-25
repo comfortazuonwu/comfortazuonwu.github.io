@@ -103,35 +103,24 @@ nav ul.hide{
 	display:none;
 }
 main{
-	margin-left:5rem;
-	margin-right:5rem;
+	margin-left:1rem;
+	margin-right:1rem;
 }
 
 
 .weathersummary{
     display:block;
-  
-    /*border:10px auto;*/
-	width:200px;
-	height:200px;
-	padding: 0.5em;
-    color:#57E405;
-    
+	width:180px;
+	height:180px;
+	padding: 0.3em;
+    color:#57E405;  
     background-color: #0B3636;
-	
 	opacity:0.7;
 	position:absolute;
 	
-	margin-left: 10rem;
-	margin-top: 5rem;
-	
-	
-	
-	
-	
-	
 	
 }
+
 .details{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
@@ -152,20 +141,17 @@ main{
 	color:white;
 }
 #headerimage {
-	width:80%;
-	height:400px;
-	margin-left:110px;
+	width:100%;
+	
+	
 }	
 
 #forecast{
-	text-align: center;
+	display:none;
 }	
 .flex{
 	
-	display: flex;
-	max-width:50%;
-	margin:50px auto;	
-	
+	display:none;
 }
 	
 .flex-col {
@@ -184,7 +170,7 @@ main{
 .col-head {
 	display: block;
 	padding: 5px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px  #333;
 	text-align: center;
 	background-color: #0B3636;
 	color:#57E405;
@@ -194,17 +180,15 @@ main{
 	height:30px;
 }
 .article{
-	padding: 5em;
 	border-radius:5px;
 	background-color: grey;
-	margin-left:5rem;
-	margin-right:5rem;
-	
+	padding:0.5em;
+	margin-bottom:2em;
 }
 #p-image{
 	width:200px;
 	height:200px;
-	float: right;
+	float: none;
 }
 aside{
 	display: none;

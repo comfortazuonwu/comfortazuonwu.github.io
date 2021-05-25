@@ -1,4 +1,4 @@
-@media only screen and (min-width: 649px)    {
+@media only screen and (min-width: 992px)    {
 #navigation {
 	display: flex;
 	}
@@ -14,13 +14,6 @@ nav button{
 	display:none;
 }
 
-
-
-
-header img {
-    width: 100%;
-}
-
 .headings h1 {
     font-size: 3rem;
 }
@@ -31,12 +24,50 @@ header img {
     margin-left: 17px;
 }
 
+#p-image{
+	width:200px;
+	height:200px;
+	float: right;
+}
+
 .flex{
 	display: flex;
 	max-width:50%;
 	margin:50px auto;
 	
 }
+#forecast{
+	text-align: center;
+}
+#headerimage {
+	width:80%;
+	height:400px;
+	margin-left:110px;
+}	
+main{
+	margin-left:5rem;
+	margin-right:5rem;
+}
+.weathersummary{
+    display:block;
+	width:200px;
+	height:200px;
+	padding: 0.5em;
+    color:#57E405;  
+    background-color: #0B3636;
+	opacity:0.7;
+	position:absolute;
+	margin-left: 10rem;
+	margin-top: 5rem;
+}
+.article{
+	padding: 5em;
+	border-radius:5px;
+	background-color: grey;
+	margin-left:5rem;
+	margin-right:5rem;
+	
+}	
 
 }
 
