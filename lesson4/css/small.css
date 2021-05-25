@@ -47,11 +47,12 @@ h1,h2,h3,h4,h5{
 .content{
     display:block;
     margin:10px auto;
+	margin-left:3rem;
+    margin-right:3rem;
     border:10px auto;
     padding:1.5em;
     background-color: rgb(209, 193, 193);
-	margin-left: 3rem;
-    margin-right: 3rem;
+	
 }
 
 footer{
