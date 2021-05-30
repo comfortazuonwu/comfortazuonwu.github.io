@@ -1,0 +1,131 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">                                                                                                                                                                  `   
+    <title>Preston</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="./images/iconfinder__windy_1337503.png" alt="icon">
+        </picture> 
+        <section class="headings">
+        <h1>THE DAILY UPDATE</h1>
+        <div class="motto"> catch phrase</div>
+        </section>
+    </header>
+    <nav>
+        <button id="menu" onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id= "navigation" class="hide">
+            <li ><a href="#">Home</a></li>
+            <li ><a class="active" href="preston-6.html">Preston</a></li>
+            <li ><a href="#"> Soda Spring</a></li>
+            <li ><a href="#">Fish Haven</a></li>
+            <li ><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        
+        </ul>
+
+    </nav>
+    <main>
+
+        <aside id="banner">
+         Pancakes at Preston Park on Saturday by 9:00pm!!
+        </aside>
+        
+        <h2 class="preston">PRESTON IDAHO</h2>
+        <section class="weathersummary">
+            <h3> Weather Summary</h3>
+            <div class="details">
+                <p class="label">Currently:</p>
+                <p class="value">Sunny</p>
+                <p class="label" id ="temperature">High:</p>
+                <p class="value"> </p>
+                <p class="label" id="windchill">Wind Chill</p>
+                <p class="value"> </p>
+                <p class="label">Humidity</p>
+                <p class="value"> </p>
+                <p class="label" id="windspeed">Wind Speed</p>
+                <p class="value"></p>
+            </div>
+    
+            </section>
+        <picture class="headerimage">
+            <source srcset="images/Inkedweek6img500_LI.jpg" media="(min-width:649px) and (max-width:991px)">
+                <source srcset="images/Inkedweek6img900_LI.jpg" media="(min-width:992px)">
+            <img  src="images/Inkedweek6img300_LI.jpg" alt="headerimage">
+        </picture>
+        <section>
+
+        </section>
+        <section class="forecast">
+        <h2 id="forecast"> 5 day Forecast</h2>
+        <div class="flex">
+            <div class="flex-col">
+                <span class="col-head">Fri</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+                <span class="data">57</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Sat</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+                <span class="data">61</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Sun</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+                <span class="data">62</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Mon</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+                <span class="data">75</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Tue</span>
+                <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+                <span class="data">80</span>
+            </div>
+        </div>
+        </section>
+
+        <section class=article>
+            <h3>Founder's Day Article</h3>
+            <h4>By Comfort Azuonwu</h4>
+            <p>
+                <img id="p-image" src="images/pexels-mentatdgt-1568342.jpg" alt="placeholder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam quisquam a facilis harum, porro voluptatibus distinctio veniam enim 
+                temporibus dolore eius numquam et eligendi rem ipsa maxime nihil est! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, alias? Asperiores, facere nesciunt maiores iste veritatis, earum omnis corporis nostrum, 
+                voluptas repellat error maxime consequatur autem! Distinctio porro incidunt obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta veniam magnam cum impedit quibusdam quaerat pariatur maxime tempore repellendus dolor natus ex,
+                 quo, nostrum atque illo recusandae voluptate nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam inventore labore. Ad illum deserunt voluptate temporibus. Maxime a soluta suscipit magnam fugiat quia, tenetur, 
+                 consequuntur modi doloribus, minima obcaecati.</p>
+
+        </section>
+           
+           
+           
+        
+       
+
+        
+
+    </main>
+<footer>
+    &copy;<span id="currentyear"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+    <p>Last Modified: <span id="lastmod"> </span></p>
+</footer>
+
+<script src="./js/week4.js"> </script>
+<script src="./js/banner.js"></script>
+<script src="js/windchill.js"></script>
+
+    
+</body>
+</html>
