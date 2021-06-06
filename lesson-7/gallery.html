@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Website gallery</title>
+</head>
+<body>
+  
+        <header>
+            <picture>
+                <img src="./images/iconfinder__windy_1337503.png" alt="icon">
+            </picture> 
+            <section class="headings">
+            <h1>THE DAILY UPDATE</h1>
+            <div class="motto"> catch phrase</div>
+            </section>
+        </header>
+        <nav>
+            <button id="menu" onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id= "navigation" class="hide">
+                <li ><a href="#">Home</a></li>
+                <li ><a  href="/comfortazuonwu.github.io/lesson6/preston-6.html">Preston</a></li>
+                <li ><a href="#"> Soda Spring</a></li>
+                <li ><a href="#">Fish Haven</a></li>
+                <li ><a href="#">Storm Center</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+            
+            </ul>
+    
+        </nav>
+        <main>
+            <aside id="banner">
+             Pancakes at Preston Park on Saturday by 9:00pm!!
+            </aside>
+            
+    <h1 id=sumheader > Weather Summary</h1>
+    <section class="gallery">
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image1.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image2.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image3.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image4.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image5.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image6.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image7.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image8.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image9.jpg">
+            <div class="textbox">Weather picture</div>
+        </picture>
+    </section>
+    </main>
+
+    <footer>
+        &copy;<span id="currentyear"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+        <p>Last Modified: <span id="lastmod"> </span></p>
+    </footer>
+    
+    <script src="./js/lastmodified.js"> </script>
+    <script src="./js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="lazyload.js"></script>
+    
+   
+
+    
+</body>
+</html>
