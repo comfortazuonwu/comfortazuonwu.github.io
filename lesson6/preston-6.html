@@ -1,15 +1,15 @@
-<!DOCTYPE HTML5>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">                                                                                                                                                                  `   
-    <title>Preston</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">                                                                                                                                                                  `     
 </head>
 <body>
     <header>
@@ -44,16 +44,11 @@
         <section class="weathersummary">
             <h3> Weather Summary</h3>
             <div class="details">
-                <p class="label">Currently:</p>
-                <p class="value">Sunny</p>
-                <p class="label" id ="temperature">High:</p>
-                <p class="value"> </p>
-                <p class="label" id="windchill">Wind Chill</p>
-                <p class="value"> </p>
-                <p class="label">Humidity</p>
-                <p class="value"> </p>
-                <p class="label" id="windspeed">Wind Speed</p>
-                <p class="value"></p>
+                <span>Currently: </span><span>Cloudy</span><br>
+                <span>High: </span><span class="temperature">50</span>&#8457;<br>
+                <span>Wind Chill: </span><span class="windchill"></span><br>
+                <span>Humidity: </span><span>69</span>%<br>
+                <span>Wind Speed: </span><span class="windspeed">5</span>mph<br>
             </div>
     
             </section>
@@ -124,7 +119,7 @@
 
 <script src="./js/week4.js"> </script>
 <script src="./js/banner.js"></script>
-<script src="js/windchill.js"></script>
+<script src="./js/windchill.js"></script>
 
     
 </body>

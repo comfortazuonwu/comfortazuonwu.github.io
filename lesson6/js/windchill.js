@@ -1,21 +1,17 @@
 
-    let temperature = document.querySelector("#temperature").innerHTML;
-    let windSpeed = document.querySelector("#windspeed").innerHTML;
+    let temperature = document.querySelector(".temperature").innerHTML;
+    let windspeed = document.querySelector(".windspeed").innerHTML;
+    let wind_chill_factor =  35.74 +  (0.6215* temperature) - (35.75 * (windspeed **0.16)) + (0.4275 * temperature * (windspeed **0.16));
     
     
-    if (temperature <= 50 && windSpeed > 3) {
-      let chill = windChill(parseInt(temperature), parseInt(windSpeed));
-      document.querySelector("#windchill").innerHTML = chill + "°F";
+    if (temperature <= 50 && windspeed > 3) {
+      document.querySelector(".windchill").innerHTML = Math.ceil(wind_chill_factor) + '&#8457';
     } else {
-      document.querySelector("#windchill").innerHTML = "N/A";
+      document.querySelector(".windchill").innerHTML = "N/A";
     }
     
 
 
 
-function windChill(tempF,speed){
-    wind_chill_factor =  35.74 +  (0.6215* tempF) - (35.75 * (speed **0.16)) + (0.4275 * tempF * (speed **0.16));
-    wind_chill_factor = Math.round(wind_chill_factor,2);
-    return wind_chill_factor
-}
+
  

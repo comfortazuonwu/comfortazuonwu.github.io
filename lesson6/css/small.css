@@ -23,9 +23,18 @@ header img {
 	display: flex;
 	flex-direction: column;
 }
-.headerimage {
-	text-align:center
+
+.weathersummary{
+	position:absolute;
+    display:block;
+	width:180px;
+	height:180px;
+	padding: 0.3em;
+    color:#57E405;  
+    background-color: #0B3636;
+	opacity:0.7;
 }
+
 
 .headings h1 {
 	font-size: 1.6rem;
@@ -114,23 +123,11 @@ main{
 }
 
 
-.weathersummary{
-    display:block;
-	width:180px;
-	height:180px;
-	padding: 0.3em;
-    color:#57E405;  
-    background-color: #0B3636;
-	opacity:0.7;
-	position:absolute;
-	
-	
-}
+
 
 .details{
-	display:grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap:1px;
+	padding-left: 5px;
+    
 
 	
 
@@ -163,7 +160,7 @@ main{
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	text-align: center;
-	border-right: 1px soild black;
+	border-right: 1px solid black;
 	flex:1 1 auto;
 }
 .data {
