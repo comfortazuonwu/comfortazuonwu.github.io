@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Storm Center</title>
+</head>
+<body>
+  
+        <header>
+            <picture>
+                <img src="./images/iconfinder__windy_1337503.png" alt="icon">
+            </picture> 
+            <section class="headings">
+            <h1>THE DAILY UPDATE</h1>
+            <div class="motto"> catch phrase</div>
+            </section>
+        </header>
+        <nav>
+            <button id="menu" onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id= "navigation" class="hide">
+                <li ><a href="#">Home</a></li>
+                <li ><a  href="/lesson6/preston-6.html">Preston</a></li>
+                <li ><a href="#"> Soda Spring</a></li>
+                <li ><a href="#">Fish Haven</a></li>
+                <li ><a class="active" href="#">Storm Center</a></li>
+                <li><a  href="/lesson-7/gallery.html">Gallery</a></li>
+            
+            </ul>
+    
+        </nav>
+        <main>
+            <aside id="banner">
+             Pancakes at Preston Park on Saturday by 9:00pm!!
+            </aside>
+     <header>
+         <h1>Report a Storm</h1>  
+     </header>
+     <form method="get" action="thanks.html"> 
+        <fieldset>
+            <legend>Personal Information</legend>
+           <label class="top">Full Name* <input type="text" name="fullname" pattern="[A-Za-z\s.'-]{5,}" required> </label>
+           <label class="top"> Phone* <input type="tel" name="phone" placeholder="1230858084" required > </label> 
+           <label class="top"> Email<input type="email" name="email" placeholder="comfy2@gmail.com"></label> 
+           <label class="top"> Zip Code* <input type="number" name="zipcode" required> </label> 
+        </fieldset>
+       <fieldset class=stormy>
+           <legend>Storm Details</legend>
+           <label class="top">Storm Date <input type="date" name="stormdate"></label>
+           <label class="top">Select the type of Storm</label>
+           <input list="storms" name="storms" >
+  <datalist id=storms>
+    <option value="Flashflood">
+    <option value="Hail">
+    <option value="Tornado">
+    <option value="Hurricane">
+    <option value="Thunderstorm">
+  </datalist>
+
+  
+    <label class="top" for="severity">Storm Severity
+        <input type="range" id="severity" value="0" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <span id="severe">0</span>
+    </label>
+
+    <datalist id="tickmarks">
+        <option value="0">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
+    </datalist>
+    <label class="top">Storm Region
+        <select name="region">
+            <option value="">Select Region</option>
+            <option value="preston">Preston</option>
+            <option value="sodaspring">Soda Springs</option>
+            <option value="fishhaven">Fish Haven</option>
+        </select>
+    </label>
+    <div>Danger level</div>
+    <label class="sbs"><input type="radio" name="danger" value="yes">Yes </label>
+    <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+    <label class="sbs"><input type="radio" name="danger" value="no">No </label>
+
+    <label class="text">Additonal Information
+    <br>
+    <textarea rows="4" cols="20" name="addition" >
+        </textarea>
+    </label>
+
+    </fieldset>
+
+<input class="sbmit" type="submit" value="Submit">
+             
+    </form>
+              
+    
+    
+    </main>
+
+    <footer>
+        &copy;<span id="currentyear"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+        <p>Last Modified: <span id="lastmod"> </span></p>
+    </footer>
+    
+    <script src="./js/lastmodified.js"> </script>
+    <script src="./js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="lazyload.js"></script>
+    <script src="./js/storm.js"></script>
+    
+   
+
+    
+</body>
+</html>
