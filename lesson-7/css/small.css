@@ -207,6 +207,10 @@ aside{
 .gallery{
 	display:flex;
 	flex-direction: column;
+	
+}
+.gallery picture {
+	margin:6px;
 }
 .textbox{
 	text-align:center;
