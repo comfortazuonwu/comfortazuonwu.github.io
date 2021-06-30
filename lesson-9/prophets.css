@@ -1,6 +1,8 @@
 html {
     min-width: 300px;
-    background-color: rgb(247, 247, 247);
+    max-width:960px;
+    
+    
 }
 
 

@@ -1,0 +1,202 @@
+body {
+	background-color: #F2F3F2;
+	padding: 0;
+	margin: 0;
+	font-family: 'Noto Serif', serif;
+}
+
+header {
+	background-color: #0B3636;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+    color:#57E405;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.weathersummary{
+	position:absolute;
+    display:block;
+	width:180px;
+	height:180px;
+	padding: 0.3em;
+    color:#57E405;  
+    background-color: #0B3636;
+	opacity:0.7;
+}
+
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #57E405;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+.preston{
+    text-align: center;
+    
+}
+
+footer{
+	background-color: #0B3636;
+	color:#57E405;
+	padding:0.4em;
+	text-align:center;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: large;
+}
+.footer{
+	color:#57E405;
+}
+nav {
+	margin: 0 auto;
+	
+	background-color: #0B3636;
+	max-width:100%
+}
+#navigation {
+	list-style: none;
+	padding: 0;
+}
+
+
+#navigation li {
+	display: block;
+}
+#navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #57E405 ;
+	font-weight: 700;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: large;
+}
+#navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.active{
+	background-color:rgb(63, 109, 63);
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+button{
+	background-color: #0B3636;
+	color:#57E405;
+	font-size: larger;
+	width:100%;
+	font-family:'Josefin Sans', sans-serif;
+}
+nav ul.hide{
+	display:none;
+}
+main{
+	margin-left:1rem;
+	margin-right:1rem;
+}
+
+
+
+
+.details{
+	padding-left: 5px;
+    
+
+	
+
+}
+.label{
+	grid-column:1/2;
+	margin-top: -10px;
+	color: #57E405 ;
+}
+.value{
+	grid-column:2/2;
+	margin-left:-10px;
+	margin-top: -10px;
+	color:white;
+}
+
+	
+	
+	
+
+#forecast{
+	display:none;
+}	
+.flex{
+	
+	display:none;
+}
+	
+.flex-col {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	border-right: 1px solid black;
+	flex:1 1 auto;
+}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px  #333;
+	text-align: center;
+	background-color: #0B3636;
+	color:#57E405;
+}
+.sun{
+	width:30px;
+	height:30px;
+}
+.article{
+	border-radius:5px;
+	background-color: grey;
+	padding:0.5em;
+	margin-bottom:2em;
+	margin-top: 2em;
+}
+#p-image{
+	width:200px;
+	height:200px;
+	float: none;
+}
+aside{
+	display: none;
+	background-color:  #0B3636;
+	color:#57E405;
+	font-size: larger;
+	padding:1em;
+}
