@@ -24,8 +24,9 @@ header img {
 	display: flex;
 	flex-direction: column;
 }
-.headerimage {
-	text-align:center
+.headerimage picture {
+	text-align:center;
+	width:300px;
 }
 
 .headings h1 {
