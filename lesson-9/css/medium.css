@@ -54,15 +54,18 @@
 h2 {text-align:center;}
 
 
-.cards  {
+.cards  section{
     display:flex;
 	flex-direction: row;
     gap:3em;
+    padding:1em;
+    justify-content: center;
 }
 
 .cards section:nth-child(3) {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
+
   .cards section:nth-child(2) {
     flex-direction: row-reverse;
   }

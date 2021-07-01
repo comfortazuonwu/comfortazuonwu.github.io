@@ -61,12 +61,21 @@ main{
 	margin-top: 5rem;
 }
 .article{
+	
 	padding: 5em;
 	border-radius:5px;
 	background-color: grey;
 	margin-left:5rem;
 	margin-right:5rem;
+	margin-top: 5rem;
 	
+	
+}
+.article  p{
+	color:black;
+}
+.article  h3{
+	color:black;
 }
 .headerimage{
 	margin:100px;
@@ -86,12 +95,14 @@ main{
 	grid-gap: 3em;
 }
  .cards section{
+	display:grid;
 	background-color: #0B3636;
     text-align: center;
     padding:  0px;
 	width:85%;
 	height:99%;
     border: 1px solid rgb(78, 85, 103);
+	margin-top:30px;
 }
 .town-details h2{
 	color:#57E405;
@@ -101,13 +112,17 @@ main{
 .town-details h3{
 	font-size: smaller;
 }
-.cards img
+
 
 .town-details h2, h3, p {
 	color:#57E405;
 	
 	
 }
+.cards section img{
+	margin-bottom:10px;
+}
+	
 }
 
 

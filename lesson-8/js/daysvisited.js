@@ -21,11 +21,11 @@ let months = [
 	"November",
 	"December"
 ];
-let d = new Date();
+let date = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + ", " + d.getDate() + " " + monthName + " " + year;
+let fulldate = dayName + ", " + date.getDate() + " " + monthName + " " + year;
 document.querySelector('#currentdate').textContent = fulldate;
 
 
