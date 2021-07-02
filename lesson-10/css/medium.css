@@ -38,11 +38,18 @@
         height:200px;
         float: right;
     }
-    .flex{
-        display:flex;
+    .forecast{
+        display: flex;
+        flex-direction:row;
         max-width:50%;
-	    margin:50px auto;
+       margin-top:30px;
+        
     }
+    #forecastheader{
+        display:inline;
+        margin-top:30px;
+    }
+    
     
     
    }

@@ -30,8 +30,9 @@ nav button{
 	float: right;
 }
 
-.flex{
+.forecast{
 	display: flex;
+	flex-direction:row;
 	max-width:50%;
 	margin:50px auto;
 	
@@ -71,6 +72,10 @@ main{
 .headerimage{
 	margin:100px;
 }	
+#forecastheader{
+	display:block;
+	
+}
 
 
 

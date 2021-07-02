@@ -151,25 +151,28 @@ main{
 #forecast{
 	display:none;
 }	
-.flex{
+.forecast{
 	
 	display:none;
 }
+#forecastheader{
+	display:none;
+}
 	
-.flex-col {
+.fore-box {
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	text-align: center;
 	border-right: 1px solid black;
 	flex:1 1 auto;
 }
-.data {
+.fore-temp{
 	display: block;
 	padding: 0 5px 5px;
 	font-size: 0.8rem;
 	text-align: center;
 }
-.col-head {
+.weekday {
 	display: block;
 	padding: 5px;
 	border-bottom: 1px  #333;
@@ -199,4 +202,7 @@ aside{
 	color:#57E405;
 	font-size: larger;
 	padding:1em;
+}
+#forecastheader{
+	text-align: center;
 }
