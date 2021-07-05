@@ -285,8 +285,22 @@ form input.sbmit{
     padding:  0px;
     width: 104%;
 	height:50%;
-    border: 1px solid rgb(78, 85, 103);}
+    border: 1px solid rgb(78, 85, 103);
+	color:#57E405;
+}
 
 .cards img{
 	margin-bottom:-2px;
+}
+.contactinfo{
+	border-style: double ;
+	width:60%;
+	display:grid;
+	grid-template-columns:  1fr;
+	margin:auto;
+	margin-bottom: 20px;
+	padding:1em;
+}
+#mapimage{
+	display: none;
 }

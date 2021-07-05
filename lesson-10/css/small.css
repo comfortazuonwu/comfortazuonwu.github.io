@@ -158,6 +158,9 @@ main{
 #forecastheader{
 	display:none;
 }
+#mapimage{
+	display: none;
+}
 	
 .fore-box {
 	border-bottom: 1px solid black;
@@ -195,6 +198,7 @@ main{
 	width:200px;
 	height:200px;
 	float: none;
+	margin-left:2em;
 }
 aside{
 	display: none;
@@ -205,4 +209,27 @@ aside{
 }
 #forecastheader{
 	text-align: center;
+}
+.article h3{
+	font-size: xx-large;
+}
+.upcomingevents{
+	background-color:  #0B3636;
+	color:#57E405;
+	padding:0.5em;
+	margin:auto;
+	margin-bottom: 2em;
+}
+#weatherinfo{
+text-align: center;
+}
+
+.contactinfo{
+	border-style: double ;
+	width:60%;
+	display:grid;
+	grid-template-columns:  1fr;
+	margin:auto;
+	margin-bottom: 20px;
+	padding:1em;
 }

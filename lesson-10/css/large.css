@@ -76,8 +76,36 @@ main{
 	display:block;
 	
 }
-
-
+.upcomingevents{
+	background-color:  #0B3636;
+	text-align:center;
+	width:50%;
+	padding:1em;
+	margin-bottom:5rem;
+	margin-left:15em;
+	font-size: larger;
+	color:#57E405;
+		}
+.contactinfo{
+	border-style: double ;
+	width:60%;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin:auto;
+	margin-bottom: 20px;
+}
+#mapimage{
+	grid-column: 1;
+	border-style:inset;
+}
+#paragraph{
+	margin-top: 20px;
+	margin-left: 20px;
+	grid-column:2;
+}
+#h-image{
+	margin:auto;
+	}
 
 
 

@@ -60,6 +60,7 @@ h2 {text-align:center;}
     gap:3em;
     padding:1em;
     justify-content: center;
+    color:#57E405;
 }
 
 .cards section:nth-child(3) {
@@ -75,4 +76,6 @@ h2 {text-align:center;}
 
 
 }
-   
+#mapimage{
+    display:block;
+}

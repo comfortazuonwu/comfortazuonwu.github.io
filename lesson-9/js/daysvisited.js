@@ -68,5 +68,7 @@ localStorage.setItem('last-visit', Date.now());
 
 // Responsive menu
 function toggleMenu() {
-    document.getElementsByClassName("nav-bar")[0].classList.toggle("responsive");
+    
+    console.log(document.querySelectorAll(".navigation").classList);
+    document.getElementById("navigation").classList.toggle("hide");
 }
