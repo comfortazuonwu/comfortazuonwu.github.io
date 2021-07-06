@@ -159,7 +159,7 @@ main{
 	display:none;
 }
 #mapimage{
-	display: none;
+	
 }
 	
 .fore-box {
@@ -253,13 +253,7 @@ display: block;
 	margin-bottom:-2px;
 }
 .contactinfo{
-	border-style: double ;
-	width:60%;
-	display:grid;
-	grid-template-columns:  1fr;
-	margin:auto;
-	margin-bottom: 20px;
-	padding:1em;
+	
 }
 /*------ Form-------*/
 form{
@@ -332,4 +326,8 @@ form input.sbmit{
 	color:#57E405;
 	max-width: 303px;
 	margin-top:-5px;
+}
+#icon{
+width:30px;
+height:30px;
 }

@@ -202,4 +202,14 @@ form label.top, form div{
 	text-align: center;
 	}
 
+
+.contactinfo{
+	border-style: double ;
+	width:60%;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin:auto;
+	margin-bottom: 20px;
+	padding:1em;
+}
 }
