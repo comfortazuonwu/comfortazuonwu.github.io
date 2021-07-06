@@ -1,0 +1,91 @@
+@media only screen and (min-width: 649px)    {
+    main{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    #navigation {
+        display: flex;
+        }
+        
+    #navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+    }
+    #navigation a {
+        text-align: center;
+    }
+    nav button{
+        display:none;
+    }
+    
+    
+    
+    
+    
+    
+    .headings h1 {
+        font-size: 3rem;
+    }
+    
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+    
+    #p-image{
+        width:200px;
+        height:200px;
+        float: right;
+    }
+    .forecast{
+        display: flex;
+        flex-direction:row;
+        max-width:50%;
+       margin-top:30px;
+        
+    }
+    #forecastheader{
+        display:inline;
+        margin-top:30px;
+    }
+    .cards  section{
+        display:flex;
+        flex-direction: row;
+        gap:3em;
+        padding:1em;
+        justify-content: center;
+        color:#57E405;
+    }
+    
+    .cards section:nth-child(3) {
+        flex-direction: row;
+      }
+    
+      .cards section:nth-child(2) {
+        flex-direction: row-reverse;
+      }
+      .cards section:nth-child(1) {
+        flex-direction: row;
+      }
+      .gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1em;
+    } 
+    
+    
+    #mapimage{
+        display:block;
+    }
+
+    form{
+        width:100%
+    }
+    
+    #weatherinfo{
+        display: block;
+        }
+    
+   }
+    

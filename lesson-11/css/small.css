@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5{
 	font-size: .9rem;
 }
 
-.preston{
+.townheader{
     text-align: center;
     
 }
@@ -210,18 +210,27 @@ aside{
 #forecastheader{
 	text-align: center;
 }
+.forecast p{
+	color:black;
+}
 .article h3{
 	font-size: xx-large;
 }
-.upcomingevents{
-	background-color:  #0B3636;
+.events{
+	background-color: #0B3636;
 	color:#57E405;
 	padding:0.5em;
 	margin:auto;
 	margin-bottom: 2em;
+	width:60%;
+	text-align: center;
+	border-style: dotted;
+}
+.events p{
+	color:#57E405;
 }
 #weatherinfo{
-text-align: center;
+display: block;
 }
 .cards{
 	display:flex;
@@ -251,4 +260,76 @@ text-align: center;
 	margin:auto;
 	margin-bottom: 20px;
 	padding:1em;
+}
+/*------ Form-------*/
+form{
+	background-color: #0B3636;
+	max-width: 320px;
+	color:#57E405
+ 
+}
+
+
+form fieldset{
+	margin: 0 2rem 2rem 2rem;
+	border:1px solid #57E405;
+	border-radius:10px;
+	padding:.5rem 2%;
+	
+	
+	
+}
+form legend{
+	color:#57E405;
+	margin: 0 1rem;
+	padding: 0 0.5rem;
+}
+
+form label.top, form div{
+	display:block;
+	padding-top:1rem;
+	font-size:20px;
+	max-width: 12rem;
+	
+	
+}
+form label.top input, form label.top select,form label.top datalist {
+	
+	max-width: 12rem;
+	
+
+}
+form label.sbs{
+	display:block;
+	padding: .75rem 0;
+	max-width: 20rem;
+	
+
+}
+form input.sbmit{
+	border:none;
+	color:#0B3636;
+	border-radius:1rem;
+	padding: 0.5rem;
+	margin: 0 0 2rem 2rem;
+}
+.gallery{
+	display:flex;
+	flex-direction: column;
+	
+}
+.gallery picture {
+	margin:6px;
+}
+	
+.galleryimg{
+	border-style:inset;
+}
+
+.textbox{
+	text-align:center;
+	background-color:#0B3636;
+	color:#57E405;
+	max-width: 303px;
+	margin-top:-5px;
 }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Website gallery</title>
+</head>
+<body>
+  
+        <header>
+            <picture>
+                <img src="./images/iconfinder__windy_1337503.png" alt="icon">
+            </picture> 
+            <section class="headings">
+            <h1>THE DAILY UPDATE</h1>
+            <div class="motto"> Keeping you informed 24/7</div>
+            </section>
+        </header>
+        <nav>
+            <button id="menu" onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id= "navigation" class="hide">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a  href=preston.html">Preston</a></li>
+                <li ><a href="sodasprings.html"> Soda Spring</a></li>
+                <li ><a href="fishhaven.html">Fish Haven</a></li>
+                <li ><a href="stormcenter.html">Storm Center</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+            
+            </ul>
+    
+        </nav>
+        <main>
+            <aside id="banner">
+             Pancakes at Preston Park on Saturday by 9:00pm!!
+            </aside>
+            
+    <h1 class="townheader"> Weather Summary</h1>
+    <section class="gallery">
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image1.jpg" alt="weather picture">
+            <div class="textbox">Cloudy Sky</div>
+        </picture>
+        
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image2.jpg"  alt="weather picture">
+            <div class="textbox">Snow</div>
+        </picture> 
+
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image3.jpg" alt="weather picture">
+            <div class="textbox">Fog</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image4.jpg" alt="weather picture">
+            <div class="textbox">Thunder/Lightning</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image5.jpg" alt="weather picture">
+            <div class="textbox">Clear Skies</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image6.jpg" alt="weather picture">
+            <div class="textbox">Clear Skies</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image7.jpg" alt="weather picture">
+            <div class="textbox">Sunset</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image8.jpg" alt="weather picture">
+            <div class="textbox">Sunset</div>
+        </picture>
+        <picture>
+            <img class="galleryimg" src="./images/placeholder7.png" data-src="./images/l7image9.jpg" alt="weather picture">
+            <div class="textbox">Night Skies</div>
+        </picture>
+    </section>
+    </main>
+
+    <footer>
+        <p class="last-visit">Days since last visit: <span></span></p>
+        &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+        <p>Last Modified: <span id="lastmod"> </span></p>
+    </footer>
+    
+    <script src="./js/lastmodified.js"> </script>
+    <script src="./js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="./js/lazyload.js"></script>
+    <script src="./js/daysvisited.js"></script>
+  
+
+    
+   
+
+    
+</body>
+</html>

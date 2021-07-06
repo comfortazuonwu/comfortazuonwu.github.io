@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px)    {
+@media only screen and (min-width: 992px)  {
 #navigation {
 	display: flex;
 	}
@@ -30,8 +30,9 @@ nav button{
 	float: right;
 }
 
-.flex{
+.forecast{
 	display: flex;
+	flex-direction:row;
 	max-width:50%;
 	margin:50px auto;
 	
@@ -61,40 +62,60 @@ main{
 	margin-top: 5rem;
 }
 .article{
-	
 	padding: 5em;
 	border-radius:5px;
 	background-color: grey;
 	margin-left:5rem;
 	margin-right:5rem;
-	margin-top: 5rem;
-	
-	
+	margin-top: 5em;
 }
-.article  p{
+.article p, .article h3{
 	color:black;
-}
-.article  h3{
-	color:black;
+	
 }
 .headerimage{
 	margin:100px;
 }	
-.gallery{
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 1em;
+#forecastheader{
+	display:block;
+	
 }
-.galleryimg:hover {box-shadow: 0 0 50px #333;}
-
-
-/*homepage*/
+.upcomingevents{
+	background-color:  #0B3636;
+	text-align:center;
+	width:50%;
+	padding:1em;
+	margin-bottom:5rem;
+	margin-left:15em;
+	font-size: larger;
+	color:#57E405;
+}
+.contactinfo{
+	border-style: double ;
+	width:60%;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin:auto;
+	margin-bottom: 20px;
+}
+#mapimage{
+	grid-column: 1;
+	border-style:inset;
+}
+#paragraph{
+	margin-top: 20px;
+	margin-left: 20px;
+	grid-column:2;
+}
+#h-image{
+margin:auto;
+}
 .cards{
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
 	grid-gap: 3em;
 }
- .cards section{
+.cards section{
 	display:grid;
 	background-color: #0B3636;
     text-align: center;
@@ -135,35 +156,50 @@ grid-column: 2;
 .cards section img{
 	margin-bottom:10px;
 }
+
+.cards section img{
+	margin-bottom:10px;
+}
+
+
 #paragraph p{
 	color:black;
 }
-.contactinfo{
-	border-style: double ;
-	width:60%;
+.gallery{
 	display:grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
+.galleryimg:hover {box-shadow: 0 0 50px #333;}
+
+form{
+	background-color: #0B3636;
+	color:#57E405;
+	max-width: 630px;
 	margin:auto;
-	margin-bottom: 20px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	border-radius:10px;
+	padding:1em;
 }
-#mapimage{
-	grid-column: 1;
-	border-style:inset;
+form label.top input, form label.top select,form label.top datalist {
+	display:block;
+	font-size:1rem;
+	border:solid 1px black;
+	border-radius: 5px;
+	padding:.75rem;
+	width: 100%;
+	max-width: 20rem;
 }
-#paragraph{
-	margin-top: 20px;
-	margin-left: 20px;
-	grid-column:2;
-	
-}
-#h-image{
-	margin:auto;
-}
-p{
-	color:black;
-}
+form label.top, form div{
+	display:block;
+	padding-top:1rem;
+	font-size:20px;
+	max-width: 20rem;
 
 }
+#weatherinfo{
+	text-align: center;
+	}
 
-
-
+}

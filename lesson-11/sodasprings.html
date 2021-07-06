@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Springs</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">                                                                                                                                                                     
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="./images/iconfinder__windy_1337503.png" alt="icon">
+        </picture> 
+        <section class="headings">
+        <h1>THE DAILY UPDATE</h1>
+        <div class="motto"> catch phrase</div>
+        </section>
+    </header>
+    <nav>
+        <button id="menu" onclick="toggleMenu()">&#9776;Menu</button>
+        <ul id= "navigation" class="hide">
+            <li ><a href="index.html">Home</a></li>
+            <li ><a  href="preston.html">Preston</a></li>
+            <li ><a class="active" href="sodasprings.html"> Soda Spring</a></li>
+            <li ><a href="fishhaven.html">Fish Haven</a></li>
+            <li ><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        
+        </ul>
+
+    </nav>
+    <main>
+
+        <aside id="banner">
+         Pancakes at Preston Park on Saturday by 9:00pm!!
+        </aside>
+        
+        <h2 class="townheader">SODA SPRINGS IDAHO</h2>
+        <section class="weathersummary">
+            <h3> Weather Summary</h3>
+            <div class="details">
+                <span>Currently: </span><span id="currently"></span><span>    </span><span id="current-temp" ></span>&#8457;<br>
+                <span>High: </span><span id="high-temp"></span>&#8457;<br>
+                <span>Wind Chill: </span><span class="windchill"></span><br>
+                <span>Humidity: </span><span id="humidity"></span>%<br>
+                <span>Wind Speed: </span><span id="windspeed"></span>mph<br>
+            </div>
+    
+            </section>
+            <div id="h-image">
+            <picture class="headerimage">
+                <source srcset=./images/sodasprings500.jpg media="(min-width:649px) and (max-width:991px)">
+                    <source srcset="./images/sodasprings900.jpg" media="(min-width:992px)">
+                <img  src="./images/sodasprings300.jpg" alt="headerimage">
+            </picture>
+        </div>
+        
+        <h2 id="forecastheader">5-day Forecast</h2>
+        <h6 id="weatherinfo">Weather information provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></h6>
+        
+        <div class="forecast"></div>
+        
+       
+                
+
+        <section class=article>
+            <h3>From Beer Springs to Soda Springs: How this tiny Idaho town became known for its carbonated water</h3>
+            <h4>By KTVB Staff</h4>
+            <p>
+                <img id="p-image" src="./images/geyser.jpg" alt="sodaspringpic"><p> It was a pit stop for Oregon Trail pioneers and fur traders while traveling through Eastern Idaho. Often referred to as the 'Oregon Trail Oasis,' it's now known as Soda Springs, a town of just over 3,000 people in Caribou County.
+
+                    As one of the main water sites along the Oregon Trail, travelers would often stop to try the water at the sulfurous springs, which bubbles like boiling water on the surface and emits a destructive, rotten egg smell when the wind is blowing just right.</p> <p>Fur traders first referred to the area as 'Beer Springs' after tasting the water and reportedly said that one of the springs "tasted like beer... flat beer."
+
+                        Today, Beer Springs is now known as Hooper Springs, named after W.H. Hooper, Salt Lake City's leading banker at the time, and the Utah delegate to Congress.
+                        
+                        Hooper had a summer home in the area and would often visit Beer Springs and eventually produced a national marketing campaign for Soda Springs water in the 1880s.
+                        
+                        Sparkling soda water is still free for visitors to drink at the Soda Springs city park.</p> <p>In 1937, Soda Springs gained notoriety once again. While drilling a hole over 300 feet into the ground in search of hot water for a bathhouse, crews instead unleashed what is now known as The Geyser.
+
+                        Today, it remains as the only regulated, man-made geyser in the world, releasing water up to 100 feet in the air every hour on the hour.</p>
+                    
+                
+                
+                <p><i>source: https://www.ktvb.com/</i></p>
+
+        </section>
+
+       <div class="events">
+            <h2 class="events">Upcoming Events</h2>
+
+       </div>
+
+        <section class="contactinfo">
+<div id="mapimage">
+    <iframe
+  width="300" height="300" style="border:0" allowfullscreen loading="lazy" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCLnXmXw1e5gGKz845RgVwRksxSfIW-2Ug&center=42.6544,-111.6047&zoom=8">
+</iframe>
+</div>
+<div id=paragraph>
+<p>The Daily Update</p>
+<p>649 S 2nd W</p>
+<p>Rexburg,ID</p>
+<p>208-555-2897</p>
+<p>commych029@gmail.com</p>
+</div>
+        </section>
+           
+           
+           
+        
+       
+
+        
+
+    </main>
+    <footer>
+        <p class="last-visit">Days since last visit: <span></span></p>
+        &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+        <p>Last Modified: <span id="lastmod"> </span></p>
+    </footer>
+
+<script src="./js/sodaforecast.js"></script>    
+<script src="./js/lastmodified.js"> </script>
+<script src="./js/banner.js"></script>
+<script src="js/windchill.js"></script>
+<script src="./lesson8/lazyload"></script>
+<script src="./js/daysvisited.js"></script>
+
+
+
+
+    
+</body>
+</html>

@@ -194,10 +194,14 @@ main{
 	margin-bottom:2em;
 	margin-top: 2em;
 }
+.article h3,h4{
+	font-size: xx-large;
+}
 #p-image{
 	width:200px;
 	height:200px;
 	float: none;
+	margin-left: 20px;
 }
 aside{
 	display: none;
@@ -224,6 +228,7 @@ color:#0B3636;
 form{
 	background-color: #0B3636;
 	color:#57E405;
+	margin-bottom: 3em;
 }
 form fieldset{
 	margin: 0 2rem 2rem 2rem;
