@@ -182,3 +182,14 @@ ul{
     height:300px;
     margin-left:20px;
   }
+
+.cards img{
+}
+.cards section{
+    background-color: rgb(91, 187, 219);
+}
+.cards {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:3em;
+}
