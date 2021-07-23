@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    
+    <title>Home Page</title>
+</head>
+<body>
+<header>
+  <section class="head" >
+        <img src="images/p.icon.jpg" alt="icon">
+  
+  <p id="headline">Santa Monica Chamber of Commerce</p>
+  <ul class="navbar">
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="city.html">City</a></li>
+    <li><a href="join.html">Join</a></li>
+    <li><a href="directory.html">Directory</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</section>
+</header>
+<main>
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+  </div>
+  <div class="weather">
+    <h3>Weather Info</h3>
+    <span>Currently: </span><span id="currently"></span><span>    </span><span id="current-temp" ></span>&#8457;<br>
+    <span>Humidity: </span><span id="humidity"></span>%<br>
+</div>
+
+   
+    <div id="about">
+      
+        <h3> ABOUT US</h3>
+        <p>
+         The Santa Monica Chamber of Commerce advocates and represents business’ interests and issues facing the community. 
+         We provide the environment to help our members prosper and succeed through a proactive working partnership with all levels of government and 
+         community organizations to achieve a healthy local economy and quality of life.</p>
+ 
+    </div>
+    <div id="advertisement">
+    <h3>Company Advertisement</h3>
+    <h4>ASCENT MEDIA</h4>
+    <p>Ascent Capital Group, Inc. is a holding company. The Company's subsidiaries include Monitronics International, Inc. (MONI) and LiveWatch Security, LLC (LiveWatch). 
+    The Company's segments include MONI, LiveWatch and Other Activities.The Organization's mission is to be a leading provider
+    of services to the media and entertainment industry and provide customers quality solutions for the creation, management and distribution of 
+    content, individually and as part of a package solution on a global basis</p>
+    <h4>FAIRMONT MIRAMAR HOTEL & BUNGALOWS</h4>
+    <p>Situated on five expansive acres atop the bluffs overlooking the Santa Monica Beach, 
+    the Fairmont Miramar Hotel & Bungalows is the premier address for locals and world travelers alike. 
+    The hotel is comprised of 297 guest rooms including 62 suites and the only private bungalows on the Westside. From the beautiful lush grounds, heritage inspired and locally-sourced FIG Restaurant,
+    celebrated hotspot The Bungalow, Glam + Go, Lloyd’s Barbershop, Atelier Fine Watches & Jewelry, exhale Mind Body Spa and more, this ‘urban resort’ delivers and 
+    experience that can only be found in one place: The Fairmont Miramar Santa Monica.</p>
+    <p><i>Learn more at https://www.fairmont.com/santa-monica/</i></p>  
+ <h4>HUCKLEBERRY BAKERY & CAFÉ</h4>
+    <p>Run by celebrated culinary duo, Josh Loeb and Zoe Nathan, this popular artisan bakery/cafe offers a mouth-watering selection of sweet and savory treats.</p>
+    <p><i>Learn more at https://www.huckleberrycafe.com/</i></p>  
+
+   </div>
+  <div id="action">
+      <h3>JOIN US TODAY!</h3>
+      <p>
+        The Santa Monica Chamber offers businesses a local platform to tap into the power of an already established community of 
+        business owners and entrepreneurs. Members of the Santa Monica Chamber of Commerce are a part of a community of over 800 member organizations.</p>
+        <p>Click here to join:</p>
+  </div>
+  
+  <div class="forecast"></div>
+  <section class="forecast">
+    <h2 id="forecast"> 5 day Forecast</h2>
+    <div class="flex">
+        <div class="flex-col">
+            <span class="col-head">Fri</span>
+            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+            <span id="temp1"></span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Sat</span>
+            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+            <span id="temp2"></span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Sun</span>
+            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
+            <span id="temp3"></span>
+        </div>
+        
+    </div>
+    </section>
+  
+  
+<footer>
+    <p> &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+    </p>
+    <p>Last Modified: <span id="lastmod"> </span></p>
+</footer>
+</main>
+    <script src="js/project.js"></script>
+</body>
+</html>

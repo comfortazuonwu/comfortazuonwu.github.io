@@ -1,0 +1,184 @@
+header, footer{
+    padding:2em;
+    background-color: #564D80;
+    color:#F2D1C9;
+    font-family: "Alegra Sans Sc", sans-serif;
+}
+body{
+    background-color:#98a6d4;
+    color:#37000A;
+    font-family:"Roboto", sans-serif;
+
+}
+
+#about, #action, #advertisement, #history {
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    background-color: rgb(235, 241, 243);
+    color:#37000A;
+    border-radius:15px;
+	width:80%;
+	padding:0.5em;
+    border-style: double;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.head{
+    display:grid;
+    grid-template-columns: 1fr 1fr 5fr;
+}
+.navbar{
+    list-style: none;
+    margin-left: 8em;
+    
+}
+.navbar li{
+    display: block;
+    color:#F2D1C9;
+}
+.navbar a{
+    display: block;
+    padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navbar a:hover {
+	color: white;
+	background-color: black;
+}
+footer{
+    text-align: center;
+}
+#headline{
+    margin-left:-3em;
+    font-size:x-large;
+    display:block;
+}
+.weather{
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    background-color: rgb(235, 241, 243);
+    color:#37000A;
+    border-radius:15px;
+	width:20%;
+	padding:0.2em;
+    border-style: double;
+    margin-top: 20px;
+}
+.forecast{
+    width:100%;
+}
+.active{
+	background-color:purple;
+}
+form{
+	background-color: rgb(235, 241, 243);
+	color:#37000A;
+    margin-right:auto;
+    margin-left: auto;
+    width:50%;
+    padding:2em;
+    border-radius:10px;
+    margin-top: 20px;
+}
+
+
+form fieldset{
+	margin: 0 2rem 2rem 2rem;
+	border:1px solid #37000A;
+	border-radius:10px;
+	padding:.5rem 2%;
+	
+	
+	
+}
+form legend{
+	color:#37000A;
+	margin: 0 1rem;
+	padding: 0 0.5rem;
+}
+
+form label.top, form div{
+	display:block;
+	padding-top:1rem;
+	font-size:20px;
+	max-width: 12rem;
+	
+	
+}
+form label.top input, form label.top select,form label.top datalist, form label.top textarea {
+	
+	max-width: 12rem;
+    border-radius: 5px;
+	
+
+}
+form label.sbs{
+	display:block;
+	padding: .75rem 0;
+	max-width: 20rem;
+	
+
+}
+form input.sbmit{
+	border:none;
+    color: rgb(235, 241, 243);
+	background-color:#37000A;
+	border-radius:1rem;
+	padding: 0.5rem;
+	margin: 0 0 2rem 2rem;
+}
+
+#contactp{
+    text-align:center;
+}
+#mapimage{
+    text-align:center;
+    margin-top: 2rem ;
+    margin-bottom:2rem;
+}
+#directors{
+    background-color: rgb(235, 241, 243);
+    border-radius: 15px;
+    text-align: center;
+    width:50%;
+    margin-right:21em;
+    margin-left:21em;
+    margin-top:2em;
+    border-style: double;
+}
+ul{
+    list-style-type: none;
+
+}
+/* alert */
+.alert {
+    padding: 20px;
+    background-color: #564D80;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+.cityimg{
+    width:400px;
+    height:300px;
+    margin-left:20px;
+  }

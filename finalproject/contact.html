@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+<header>
+  <section class="head" >
+        <img src="images/p.icon.jpg" alt="icon">
+  
+  <p id="headline">Santa Monica Chamber of Commerce</p>
+  <ul class="navbar">
+    <li><a  href="home.html">Home</a></li>
+    <li><a href="city.html">City</a></li>
+    <li><a href="join.html">Join</a></li>
+    <li><a href="directory.html">Directory</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+  </ul>
+</section>
+</header>
+<main>
+  <div id="contactp"><p>Do you have any feedback or concerns? If yes, please fill out the form below</p></div>
+  <form method="get" action="thanks.html"> 
+    <fieldset>
+      <legend>Contact Us</legend>
+       <label class="top">First Name* <input type="text" name="firstname" pattern="[A-Za-z\s.'-]{5,}" required> </label>
+       <label class="top">Last Name* <input type="text" name="lastame" pattern="[A-Za-z\s.'-]{5,}" required> </label>
+       <label class="top"> Phone <input type="tel" name="phone" placeholder="123456976" > </label> 
+       <label class="top"> Email*<input type="email" name="email" placeholder="cgarnet@gmail.com"required></label>
+       <label class="top">Comment
+        <br>
+        <textarea rows="4" cols="20" name="description"></textarea>
+        </label> 
+    </fieldset>
+    <input class="sbmit" type="submit" value="Submit">
+    </form>
+    <section id="directors">
+    <h3>Board of Directors</h3>
+    <ul>
+      <li><strong>Laurel Rosen</strong></li>
+      <p>President</p>
+      <li><strong>Matt Staufer</strong></li>
+      <p>Executive Vice President of External Affairs</p>
+      <li><strong>Susan Hojer</strong></li>
+      <p>Membership Director</p>
+    </ul>
+    </section>
+    <div id="mapimage">
+        <iframe
+      width="300" height="300" style="border:0" allowfullscreen loading="lazy" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCLnXmXw1e5gGKz845RgVwRksxSfIW-2Ug&center=34.0195,-118.4912&zoom=13">
+    </iframe>
+    </div>
+<footer>
+    <p> &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
+    </p>
+    <p>Last Modified: <span id="lastmod"> </span></p>
+
+</footer>
+</main>
+<script src="js/project.js"></script>
+  
+</body>
+</html>
