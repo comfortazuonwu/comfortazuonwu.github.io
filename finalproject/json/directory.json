@@ -13,7 +13,7 @@
     "name":"Fig Restaurant",
     "address":"101 Wilshire Blvd, Santa Monica, CA 904015",
     "link":"http://www.figsantamonica.com/",
-    "logo":"",
+    "logo":"./images/fig.png",
     "alt":"logo"
 },
 {
@@ -27,14 +27,14 @@
     "name":"Andrew's Cheese Shop",
     "address":"728 Montana Ave, Santa Monica, CA 90403",
     "link":"https://www.andrewscheese.com/",
-    "logo":"./images/sugarlogo.png",
+    "logo":"./images/cheese.png",
     "alt":"logo"
 },
 {
     "name":"Santa Monica Yoga",
     "address":"1640 Ocean Park Blvd, Santa Monica, CA 90405",
     "link":"https://santamonicayoga.com/",
-    "logo":"./images/yogalogo(2).png",
+    "logo":"./images/yogalogo (2).png",
     "alt":"logo"
 },
 {

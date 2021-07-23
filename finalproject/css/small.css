@@ -183,13 +183,26 @@ ul{
     margin-left:20px;
   }
 
-.cards img{
-}
+
+
+
 .cards section{
-    background-color: rgb(91, 187, 219);
+    margin-top:2em;
+    margin-bottom:2em;
+    background-color: #564D80;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+    width:400px;
+    height:400px;
+    color:white;
+
 }
 .cards {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:3em;
+    margin-top:2em;
+    margin-bottom:2em;
 }
+
