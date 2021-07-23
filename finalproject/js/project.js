@@ -72,7 +72,7 @@ fetch(weather)
   document.querySelector("#currentyear").textContent = d.getFullYear();
 
 
-const requestURL = "/json/directory.json"
+const requestURL = "https://github.com/comfortazuonwu/comfortazuonwu.github.io/blob/master/finalproject/json/directory.json"
 
 fetch(requestURL)
     .then(function (response) {

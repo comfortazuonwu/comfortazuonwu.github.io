@@ -5,7 +5,52 @@
     "name":"Gilbert’s El Indio Restaurant",
     "address":"2526 Pico Blvd, Santa Monica, CA 90405",
     "link":"https://gilbertselindio.com/",
-    "logo":"/images/gilbertslogo.jpg"
+    "logo":"./images/gibertslogo.jpg",
+    "alt":"logo"
+},
+{
+    
+    "name":"Fig Restaurant",
+    "address":"101 Wilshire Blvd, Santa Monica, CA 904015",
+    "link":"http://www.figsantamonica.com/",
+    "logo":"",
+    "alt":"logo"
+},
+{
+    "name":"Sugar Fish",
+    "address":"1345 2nd St, Santa Monica, CA 90401",
+    "link":"https://sugarfishsushi.com/",
+    "logo":"./images/sugarlogo.png",
+    "alt":"logo"
+},
+{
+    "name":"Andrew's Cheese Shop",
+    "address":"728 Montana Ave, Santa Monica, CA 90403",
+    "link":"https://www.andrewscheese.com/",
+    "logo":"./images/sugarlogo.png",
+    "alt":"logo"
+},
+{
+    "name":"Santa Monica Yoga",
+    "address":"1640 Ocean Park Blvd, Santa Monica, CA 90405",
+    "link":"https://santamonicayoga.com/",
+    "logo":"./images/yogalogo.png",
+    "alt":"logo"
+},
+{
+    "name":"Lunetta All Day",
+    "address":"2424 Pico Blvd, Santa Monica, CA 90405",
+    "link":"https://www.lunettasm.com/",
+    "logo":"./images/lunetta.png",
+    "alt":"logo"
+},
+{
+    "name":"Kye's",
+    "address":"1518 Montana Ave, Santa Monica, CA 90403",
+    "link":"https://www.kyesfeelgoodfood.com/",
+    "logo":"./images/kye's.png",
+    "alt":"logo"
 }
+
 ]
 }
