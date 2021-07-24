@@ -58,6 +58,15 @@ fetch(weather)
     document.getElementById('temp1').textContent = forecast.daily[0].temp.day.toFixed(0);
     document.getElementById('temp2').textContent = forecast.daily[1].temp.day.toFixed(0);
     document.getElementById('temp3').textContent = forecast.daily[2].temp.day.toFixed(0);
+    document.getElementById('weather').innerHTML = imgsrc
+    let icon = document.createElement("img");
+    const imagesrc = "https://openweathermap.org/img/w/"+
+    forecast.daily[0].weather[0].icon +
+    ".png"; 
+    const desc = forecast.daily[0].weather.description; 
+    icon.setAttribute("class", "weathericon");
+    icon.setAttribute("src", imagesrc); 
+    icon.setAttribute("alt", desc);
 
 
 
@@ -72,33 +81,4 @@ fetch(weather)
   document.querySelector("#currentyear").textContent = d.getFullYear();
 
 
-const requestURL = "https://github.com/comfortazuonwu/comfortazuonwu.github.io/blob/master/finalproject/json/directory.json"
-
-fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) { 
-        const directory = jsonObject["directory"];
-
-        for (let i = 0; i < directory.length; i++) {
-            let card = document.createElement("section");
-            let h2 = document.createElement("h2");
-            let addy = document.createElement("p");
-            let link = document.createElement("p");
-            let img = document.createElement("img");
-
-            h2.textContent = directory[i].name ;
-            addy.textContent =  directory[i].address;
-            link.textContent =  directory[i].link;
-            img.setAttribute("src", directory[i].logo);
-           
-            card.appendChild(h2);
-            card.appendChild(addy);
-            card.appendChild(link);
-            card.appendChild(img);
-
-            document.querySelector("div.cards").appendChild(card);
-        }
-
-    });
+  

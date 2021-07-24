@@ -3,6 +3,10 @@ header, footer{
     background-color: #564D80;
     color:#F2D1C9;
     font-family: "Alegra Sans Sc", sans-serif;
+    width: 100%;
+}
+a{
+    color:#F2D1C9;
 }
 body{
     background-color:#98a6d4;
@@ -25,15 +29,15 @@ body{
     margin-bottom: 20px;
 
 }
-.head{
-    display:grid;
-    grid-template-columns: 1fr 1fr 5fr;
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   
+   
 }
-.navbar{
-    list-style: none;
-    margin-left: 8em;
-    
-}
+
+
+
 .navbar li{
     display: block;
     color:#F2D1C9;
@@ -43,6 +47,7 @@ body{
     padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
+    
 }
 .navbar a:hover {
 	color: white;
@@ -63,7 +68,7 @@ footer{
     background-color: rgb(235, 241, 243);
     color:#37000A;
     border-radius:15px;
-	width:20%;
+	max-width:400px;
 	padding:0.2em;
     border-style: double;
     margin-top: 20px;
@@ -79,7 +84,7 @@ form{
 	color:#37000A;
     margin-right:auto;
     margin-left: auto;
-    width:50%;
+    max-width: 400px;
     padding:2em;
     border-radius:10px;
     margin-top: 20px;
@@ -111,7 +116,7 @@ form label.top, form div{
 }
 form label.top input, form label.top select,form label.top datalist, form label.top textarea {
 	
-	max-width: 12rem;
+	max-width: 11rem;
     border-radius: 5px;
 	
 
@@ -196,13 +201,71 @@ ul{
     width:400px;
     height:400px;
     color:white;
+    border-radius: 10px;
 
 }
-.cards {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:3em;
-    margin-top:2em;
-    margin-bottom:2em;
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+    box-shadow: 0 0 30px gray;
+    padding: 1rem;}
+
+
+/* forecast */
+.flex{
+	display: flex;
+	max-width:50%;
+	margin:50px auto;
 }
 
+	
+.flex-col {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	border-right: 1px solid black;
+	flex:1 1 auto;
+}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px  #333;
+	text-align: center;
+	background-color: #564D80;
+	color:white;
+}
+.sun{
+	width:30px;
+	height:30px;
+}
+#forecast{
+    text-align: center;
+}
+#upcoming, #paragraph{
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    background-color: rgb(235, 241, 243);
+    color:#37000A;
+    border-radius:15px;
+	max-width:400px;
+	padding:0.5em;
+    border-style: double;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+#headline{
+    margin-left:10px;
+}
+#icon{
+    width:20px;
+    height:20px;
+}

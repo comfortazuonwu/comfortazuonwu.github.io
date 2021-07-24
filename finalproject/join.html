@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +16,24 @@
     <title>Join Us!</title>
 </head>
 <body>
-<header>
-  <section class="head" >
-        <img src="images/p.icon.jpg" alt="icon">
-  
-  <p id="headline">Santa Monica Chamber of Commerce</p>
-  <ul class="navbar">
-    <li><a  href="home.html">Home</a></li>
-    <li><a href="city.html">City</a></li>
-    <li><a class="active" href="join.html">Join</a></li>
-    <li><a href="directory.html">Directory</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</section>
-</header>
+    <header>
+        <div class="head" >
+            <img src="images/p.icon.jpg" alt="icon">
+      </div>
+      <div class="paraline"><p id="headline">Santa Monica Chamber of Commerce</p></div>
+      
+        <nav>
+        <ul class="navbar">
+        
+          <li><a href="home.html">Home</a></li>
+          <li><a href="city.html">City</a></li>
+          <li><a class="active" href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+      
+      </header>
 <main>
    <div>
        <h3>What are the benefits of joining the chamber of commerce</h3>
@@ -43,7 +48,7 @@
            <label class="top">Last Name* <input type="text" name="lastame" pattern="[A-Za-z\s.'-]{5,}" required> </label>
            <label class="top">Title<input type="text" name="title"> </label>
            <label class="top"> Phone <input type="tel" name="phone" placeholder="123456976" > </label> 
-           <label class="top"> Email*<input type="email" name="email" placeholder="cgarnet@gmail.com"required></label> 
+           <label class="top"> Email*<input type="email" name="email" placeholder="cgarnet@gmail.com" required></label> 
         </fieldset>
         <fieldset>
             <legend>Business Information</legend>
@@ -63,11 +68,14 @@
 
         </fieldset>
         <input class="sbmit" type="submit" value="Submit">
-   </div>
+        </form>
+        </div>
 <footer>
     <p> &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
     </p>
     <p>Last Modified: <span id="lastmod"> </span></p>
+    <p>Source:<a href="https://smchamber.com/"> Santa Monica Chamber of Commerce</a></p>
+
 
 </footer>
 </main>

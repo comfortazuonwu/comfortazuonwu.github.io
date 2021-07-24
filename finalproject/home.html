@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,23 +17,27 @@
 </head>
 <body>
 <header>
-  <section class="head" >
+  <div class="head" >
         <img src="images/p.icon.jpg" alt="icon">
+  </div>
+  <div class="paraline"><p id="headline">Santa Monica Chamber of Commerce</p></div>
   
-  <p id="headline">Santa Monica Chamber of Commerce</p>
+  <nav>
   <ul class="navbar">
+  
     <li><a class="active" href="home.html">Home</a></li>
     <li><a href="city.html">City</a></li>
     <li><a href="join.html">Join</a></li>
     <li><a href="directory.html">Directory</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
-</section>
+  </nav>
+
 </header>
 <main>
   <div class="alert">
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+    No alerts available
   </div>
   <div class="weather">
     <h3>Weather Info</h3>
@@ -79,32 +84,47 @@
   
   <div class="forecast"></div>
   <section class="forecast">
-    <h2 id="forecast"> 5 day Forecast</h2>
+    <h2 id="forecast"> 3 day Forecast</h2>
     <div class="flex">
         <div class="flex-col">
             <span class="col-head">Fri</span>
-            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
-            <span id="temp1"></span>
+            
+            <span id="temp1"></span> <span>&#8457;</span>
         </div>
         <div class="flex-col">
             <span class="col-head">Sat</span>
-            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
-            <span id="temp2"></span>
+            <span id="temp2"></span><span>&#8457;</span>
         </div>
         <div class="flex-col">
             <span class="col-head">Sun</span>
-            <img class="sun" src="./images/iconfinder_sun_2995005.png" alt="sun!">
-            <span id="temp3"></span>
+           
+            <span id="temp3"></span><span>&#8457;</span>
         </div>
         
     </div>
     </section>
-  
-  
+  <div id="upcoming">
+  <h3>Upcoming Events</h3>
+  <ul>
+      <li>July 24:L.A Local Fest</li>
+      <li>August 3:4TH Annual International Women Of  Power Luncheon:</li>
+  </ul>
+</div>
+<div id=paragraph>
+    <p>Santa Monica Chamber of Commerce</p>
+    <p>3019 Ocean Park Blvd</p>
+    <p> Santa Monica, CA 90405</p>
+    <p>208-555-2897</p>
+    <p>commych029@gmail.com</p>
+    <a href="https://www.facebook.com/"><img id="icon" src="./images/facebookicon.png" alt="a facebook icon"></a>
+    <a href="https://www.youtube..com/"><img id="icon" src="./images/youtubeicon.png" alt="a facebook icon"></a>
+    <a href="https://www.twitter.com/"><img id="icon" src="./images/twittericon.png" alt="a facebook icon"></a>
+    </div>
 <footer>
     <p> &copy;<span id="currentdate"></span>|Comfort Azuonwu|Rexburg|<a class="footer" href="https://www.byui.edu/online">BYUI Online Learning </a>
     </p>
     <p>Last Modified: <span id="lastmod"> </span></p>
+    <p>Source:<a href="https://smchamber.com/"> Santa Monica Chamber of Commerce</a></p>
 </footer>
 </main>
     <script src="js/project.js"></script>
